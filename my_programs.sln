@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "my_programs", "my_programs.vcxproj", "{AEA6658E-57E2-4A3D-ACF5-667C791C05FD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BLE_Shield_1", "..\BLE_Shield_1\BLE_Shield_1.vcxproj", "{4F4B9678-F515-4785-9C01-8F7CF68EE268}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEA6658E-57E2-4A3D-ACF5-667C791C05FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AEA6658E-57E2-4A3D-ACF5-667C791C05FD}.Debug|Win32.Build.0 = Debug|Win32
+		{AEA6658E-57E2-4A3D-ACF5-667C791C05FD}.Release|Win32.ActiveCfg = Release|Win32
+		{AEA6658E-57E2-4A3D-ACF5-667C791C05FD}.Release|Win32.Build.0 = Release|Win32
+		{4F4B9678-F515-4785-9C01-8F7CF68EE268}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4F4B9678-F515-4785-9C01-8F7CF68EE268}.Debug|Win32.Build.0 = Debug|Win32
+		{4F4B9678-F515-4785-9C01-8F7CF68EE268}.Release|Win32.ActiveCfg = Release|Win32
+		{4F4B9678-F515-4785-9C01-8F7CF68EE268}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

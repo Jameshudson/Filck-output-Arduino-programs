@@ -1,0 +1,234 @@
+﻿Build started 27/05/2015 15:24:41.
+     1>Project "C:\Users\dev\Documents\Arduino\my_programs\my_programs.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard" /IC:\Users\dev\Documents\Arduino\my_programs /IC:\Users\dev\Documents\Arduino\libraries\aJson /IC:\Users\dev\Documents\Arduino\libraries\aJson\utility /I"C:\Program Files (x86)\Arduino\libraries" /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries" /I"C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers" /IC:\Users\dev\Documents\Arduino\libraries /I"C:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/" /I"C:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/" /I"C:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D __AVR_ATmega328p__ /D __AVR_ATmega328P__ /D F_CPU=16000000L /D ARDUINO=164 /D ARDUINO_AVR_UNO /D ARDUINO_ARCH_AVR /D __cplusplus /D _MBCS /X /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FI"C:\Users\dev\Documents\Arduino\my_programs\Visual Micro\.my_programs.vsarduino.h" /analyze- /errorReport:prompt BurstProgram.cpp ProgramManager.cpp TestProgram.cpp UserDefinedProgram.cpp WaveIncreasingProgram.cpp WaveProgram.cpp Pulse.cpp
+         Pulse.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : macro redefinition
+                 command-line arguments :  see previous definition of '__AVR_ATmega328p__'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : macro redefinition
+                 command-line arguments :  see previous definition of '__AVR_ATmega328P__'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(17): warning C4005: 'ARDUINO_AVR_UNO' : macro redefinition
+                 command-line arguments :  see previous definition of 'ARDUINO_AVR_UNO'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(18): warning C4005: 'ARDUINO_ARCH_AVR' : macro redefinition
+                 command-line arguments :  see previous definition of 'ARDUINO_ARCH_AVR'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(19): warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redefinition; different basic types
+                 c:\users\dev\documents\arduino\my_programs\predefined c++ types (compiler internal)(19) : see declaration of 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: too many actual parameters for macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : no conversion from 'size_t' to 'const char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redefinition; different basic types
+                 c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(63) : see declaration of 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : member function already defined or declared
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : see declaration of 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : use of this keyword requires /clr:oldSyntax command line option
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : undeclared identifier
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : undeclared identifier
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: invalid preprocessor command 'warning'
+         WaveProgram.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : macro redefinition
+                 command-line arguments :  see previous definition of '__AVR_ATmega328p__'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : macro redefinition
+                 command-line arguments :  see previous definition of '__AVR_ATmega328P__'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(17): warning C4005: 'ARDUINO_AVR_UNO' : macro redefinition
+                 command-line arguments :  see previous definition of 'ARDUINO_AVR_UNO'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(18): warning C4005: 'ARDUINO_ARCH_AVR' : macro redefinition
+                 command-line arguments :  see previous definition of 'ARDUINO_ARCH_AVR'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(19): warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redefinition; different basic types
+                 c:\users\dev\documents\arduino\my_programs\predefined c++ types (compiler internal)(19) : see declaration of 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: too many actual parameters for macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : no conversion from 'size_t' to 'const char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redefinition; different basic types
+                 c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(63) : see declaration of 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : member function already defined or declared
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : see declaration of 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : use of this keyword requires /clr:oldSyntax command line option
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : undeclared identifier
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : undeclared identifier
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: invalid preprocessor command 'warning'
+         WaveIncreasingProgram.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : macro redefinition
+                 command-line arguments :  see previous definition of '__AVR_ATmega328p__'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : macro redefinition
+                 command-line arguments :  see previous definition of '__AVR_ATmega328P__'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(17): warning C4005: 'ARDUINO_AVR_UNO' : macro redefinition
+                 command-line arguments :  see previous definition of 'ARDUINO_AVR_UNO'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(18): warning C4005: 'ARDUINO_ARCH_AVR' : macro redefinition
+                 command-line arguments :  see previous definition of 'ARDUINO_ARCH_AVR'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(19): warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redefinition; different basic types
+                 c:\users\dev\documents\arduino\my_programs\predefined c++ types (compiler internal)(19) : see declaration of 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: too many actual parameters for macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : no conversion from 'size_t' to 'const char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redefinition; different basic types
+                 c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(63) : see declaration of 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : member function already defined or declared
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : see declaration of 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : use of this keyword requires /clr:oldSyntax command line option
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : undeclared identifier
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : undeclared identifier
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: invalid preprocessor command 'warning'
+         UserDefinedProgram.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : macro redefinition
+                 command-line arguments :  see previous definition of '__AVR_ATmega328p__'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : macro redefinition
+                 command-line arguments :  see previous definition of '__AVR_ATmega328P__'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(17): warning C4005: 'ARDUINO_AVR_UNO' : macro redefinition
+                 command-line arguments :  see previous definition of 'ARDUINO_AVR_UNO'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(18): warning C4005: 'ARDUINO_ARCH_AVR' : macro redefinition
+                 command-line arguments :  see previous definition of 'ARDUINO_ARCH_AVR'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(19): warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redefinition; different basic types
+                 c:\users\dev\documents\arduino\my_programs\predefined c++ types (compiler internal)(19) : see declaration of 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: too many actual parameters for macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : no conversion from 'size_t' to 'const char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redefinition; different basic types
+                 c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(63) : see declaration of 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : member function already defined or declared
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : see declaration of 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : use of this keyword requires /clr:oldSyntax command line option
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : undeclared identifier
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : undeclared identifier
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: invalid preprocessor command 'warning'
+         TestProgram.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : macro redefinition
+                 command-line arguments :  see previous definition of '__AVR_ATmega328p__'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : macro redefinition
+                 command-line arguments :  see previous definition of '__AVR_ATmega328P__'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(17): warning C4005: 'ARDUINO_AVR_UNO' : macro redefinition
+                 command-line arguments :  see previous definition of 'ARDUINO_AVR_UNO'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(18): warning C4005: 'ARDUINO_ARCH_AVR' : macro redefinition
+                 command-line arguments :  see previous definition of 'ARDUINO_ARCH_AVR'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(19): warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redefinition; different basic types
+                 c:\users\dev\documents\arduino\my_programs\predefined c++ types (compiler internal)(19) : see declaration of 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: too many actual parameters for macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : no conversion from 'size_t' to 'const char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redefinition; different basic types
+                 c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(63) : see declaration of 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : member function already defined or declared
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : see declaration of 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : use of this keyword requires /clr:oldSyntax command line option
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : undeclared identifier
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : undeclared identifier
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: invalid preprocessor command 'warning'
+         ProgramManager.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : macro redefinition
+                 command-line arguments :  see previous definition of '__AVR_ATmega328p__'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : macro redefinition
+                 command-line arguments :  see previous definition of '__AVR_ATmega328P__'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(17): warning C4005: 'ARDUINO_AVR_UNO' : macro redefinition
+                 command-line arguments :  see previous definition of 'ARDUINO_AVR_UNO'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(18): warning C4005: 'ARDUINO_ARCH_AVR' : macro redefinition
+                 command-line arguments :  see previous definition of 'ARDUINO_ARCH_AVR'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(19): warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redefinition; different basic types
+                 c:\users\dev\documents\arduino\my_programs\predefined c++ types (compiler internal)(19) : see declaration of 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: too many actual parameters for macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : no conversion from 'size_t' to 'const char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redefinition; different basic types
+                 c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(63) : see declaration of 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : member function already defined or declared
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : see declaration of 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : use of this keyword requires /clr:oldSyntax command line option
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : undeclared identifier
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : undeclared identifier
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: invalid preprocessor command 'warning'
+         BurstProgram.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__' : macro redefinition
+                 command-line arguments :  see previous definition of '__AVR_ATmega328p__'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__' : macro redefinition
+                 command-line arguments :  see previous definition of '__AVR_ATmega328P__'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(17): warning C4005: 'ARDUINO_AVR_UNO' : macro redefinition
+                 command-line arguments :  see previous definition of 'ARDUINO_AVR_UNO'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(18): warning C4005: 'ARDUINO_ARCH_AVR' : macro redefinition
+                 command-line arguments :  see previous definition of 'ARDUINO_ARCH_AVR'
+     1>c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(19): warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t' : redefinition; different basic types
+                 c:\users\dev\documents\arduino\my_programs\predefined c++ types (compiler internal)(19) : see declaration of 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: too many actual parameters for macro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':' : no conversion from 'size_t' to 'const char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte' : redefinition; different basic types
+                 c:\users\dev\documents\arduino\my_programs\visual micro\.my_programs.vsarduino.h(63) : see declaration of 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)' : member function already defined or declared
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119) : see declaration of 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: '__value' : use of this keyword requires /clr:oldSyntax command line option
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: syntax error : '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__' : undeclared identifier
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__' : undeclared identifier
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: invalid preprocessor command 'warning'
+         Generating Code...
+     1>Done Building Project "C:\Users\dev\Documents\Arduino\my_programs\my_programs.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.26
